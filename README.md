@@ -1,5 +1,5 @@
-# Data Mining and Machine Learning Project - Team Tissot
-##Unil Kaggle - Detecting the difficulty level of French texts
+# Team Tissot - Data Mining and Machine Learning Project
+Unil Kaggle - Detecting the difficulty level of French texts
 
 Project description:
 
@@ -11,4 +11,4 @@ Project description:
 | F1-score     | 0.4640              | 0.3450    | 0.3083           | 0.3925             | 0.5236              |
 | Accuracy     | 0.4667              | 0.3542    | 0.3005           | 0.4042             | 0.5225              |
 
-##Methods we tried:
+Methods we tried:
