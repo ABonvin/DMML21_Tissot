@@ -26,11 +26,3 @@ def get_sub_data():
 from sklearn.metrics import confusion_matrix, accuracy_score, precision_score, recall_score, f1_score
 from sklearn.model_selection import train_test_split
 import seaborn as sns
-
-def split_df(dataframe):
-    corpus = dataframe['sentence'].tolist()
-
-    X_train, X_test, y_train, y_test = train_test_split(corpus, df['difficulty'].tolist(),
-                                                        test_size = 0.2,
-                                                        random_state = 0)
-    return X_train, X_test, y_train, y_test

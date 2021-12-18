@@ -73,7 +73,6 @@ def type_counter(df):
 #Sklearn vecotrizer using a CountVectorizer
 def sk_vec(df):
     phrases = df['sentence'].tolist()
-    vectorizer = CountVectorizer()
     #Also takes Bigrams into account
     vectorizer = CountVectorizer(ngram_range=(1, 2), analyzer='word' )
     #Return a matrix of vectorized words and BiGrams
