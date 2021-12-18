@@ -8,9 +8,12 @@ Team Participants
 
 
 Project description:
+
 Create a model from data with texts that have label difficulty in order to predict the difficulty level of any french text. This is used to help english speaking people that are learning french to find a appropriate text to practise reading. 
 
 Our approach:
+
+
 
 Summary of results:
 
