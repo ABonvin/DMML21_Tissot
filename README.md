@@ -13,7 +13,13 @@ Create a model from data with texts that have label difficulty in order to predi
 
 **Our approach:**
 
-
+- Tokenized with spacy
+- Vectorized the tokens with a count vectorizer
+- Test phase
+- Added words length + sentences length (in terms of characters) as features
+- Test + validation of accuracy increase
+- Added n gram features
+- Test with several combination of ngrams (words and character), best with words bigrams
 
 **Summary of results:**
 
