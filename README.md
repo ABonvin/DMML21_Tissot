@@ -1,7 +1,7 @@
 # Team Tissot - Data Mining and Machine Learning Project
 Unil Kaggle - Detecting the difficulty level of French texts
 
-##Team Participants##
+###Team Participants###
 - Arnaud Bonvin
 - Vakisan Tharmakulasinkam
 - Tarald Dysthe
