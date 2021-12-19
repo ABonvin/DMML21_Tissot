@@ -3,22 +3,31 @@ Unil Kaggle - Detecting the difficulty level of French texts
 
 **Project description:**
 
-Create a model from data with texts that have label difficulty in order to predict the difficulty level of any french text. This is used to help english speaking people that are learning french to find a appropriate text to practise reading. 
+Create a model from data with texts that have label difficulty in order to predict the difficulty level of any french text. This is used to help english speaking people that are learning french to find an appropriate text to practise reading. 
 
 **Team Participants**
 - Arnaud Bonvin
 - Vakisan Tharmakulasinkam
 - Tarald Dysthe
 
+Youtube Video: https://www.youtube.com/watch?v=lFMVf7B4Zbo
+
 **Our approach:**
 
-- Tokenized with spacy
-- Vectorized the tokens with a count vectorizer
+- We did the first part of the notebook as asked
+- We used a sequential model from Keras (TF)
+- We tokenized the sentences with spacy (feature 1)
+- We vectorized the tokens with a count vectorizer (feature 2)
+- First feature aggregation
 - Test phase
-- Added words length + sentences length (in terms of characters) as features
-- Test + validation of accuracy increase
-- Added n gram features
-- Test with several combination of ngrams (words and character), best with words bigrams
+- We added words length and sentences length (in terms of characters) (feature 3)
+- We added a counter for the types of words in each sentence (feature 4)
+- We aggregated all features
+- We tested + validated  the accuracy increase
+- We added a Ngram feature
+- We tested + validated  the accuracy increase
+- We did hyperparameter optimization 
+- We tested with several combinations of ngrams (words and character), it worked best with words bigrams
 
 **Summary of results:**
 
